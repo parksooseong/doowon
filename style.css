@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 17px;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+.visual {
+  position: relative;
+  height: 460px;
+  background: url("../img/배경.jpg") no-repeat;
+  background-size: 100%;
+  background-position: left bottom;
+}
+
+.visual-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.visual-text-box {
+  display: inline-block;
+}
+
+.search{
+  display: inline-block;
+  margin-bottom: 230px;
+  
+}
+
+.button{
+  display: inline-block;
+  margin-bottom: 230px;
+}
+
+.visual-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: center;
+  color: black;
+}
+.visual-desc {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+
+.section-top {
+  max-width: 655px;
+  margin: 60px auto;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.section-desc {
+  color: #626364;
+  line-height: 1.8;
+}
+
+.tab-links {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tab-item {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #2f956d;
+  margin: 7px;
+}
+.tab-link {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2f956d;
+}
+
+.tab-link.active,
+.tab-link:hover {
+  background-color: #2f956d;
+  color: white;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.tab-gallery {
+  margin-bottom: 80px;
+}
+
+.tab-gallery-page {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab-gallery-description {
+  font-size: 0.95rem;
+}
+
+@media (min-width: 576px) {
+  .tab-gallery-page {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tab-gallery-page {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tab-gallery-page {
+    max-width: 1120px;
+  }
+}
+
+.tab-gallery-item {
+  max-width: 373px;
+}
+
+.tab-gallery-img {
+  /* width: 100%; */
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.tab-gallery-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1a6692;
+  margin-bottom: 15px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+
+.tab-gallery-description {
+  margin-bottom: 20px;
+  margin-right: 25px;
+  margin-left: 35px;
+}
+
+.tab-gallery-price {
+  font-size: 1.25rem;
+  color: tomato;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.tab-gallery-link {
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+
+.tab-gallery-page-main{
+  padding: 50px 10px 10px 10px;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.tab-gallery-page-main2{
+  color: #626364;
+  line-height: 1.8;
+}
+
+.footer {
+  display: flex;
+  background: black;
+  padding: 30px;
+}
+.footer > div:first-child {
+  flex: 3;
+  text-align: center;
+  color: white;
+}
+.footer > div:last-child {
+  flex: 9;
+  color:white;
+}
+
